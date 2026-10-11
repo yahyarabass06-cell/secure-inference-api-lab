@@ -159,7 +159,9 @@ The latest observed local suite passed 93 tests.
 Real loopback HTTP checks confirmed authenticated prediction and responses
 401, 413, 415, 422 and 429. The temporary server was then stopped.
 
-Independent clean-clone installation and remote CI remain pending verification.
+A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 93 tests. The installed API verified authentication and prediction, and independent evaluation reproduced the observed confusion matrix.
+
+Remote CI remains pending verification.
 
 ## Limitations
 

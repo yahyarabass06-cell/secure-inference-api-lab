@@ -73,5 +73,7 @@ Overload behavior has not been measured through a load experiment.
 Data and model fingerprints are recorded in the generated metadata.
 The dependency snapshot pins versions without artifact hashes.
 
-Independent installation and remote CI still require verification.
+A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 93 tests. Installed-package API checks passed and evaluation reproduced the recorded confusion matrix.
+
+Remote CI still requires verification.
 No production throughput, latency percentile or memory ceiling is claimed.
