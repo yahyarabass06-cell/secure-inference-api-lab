@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "training_records": 800,
+  "calibration_records": 400,
+  "train_sha256": "60fad41abfb08409427bac5a3a471d3914d7e70486c3ed5c402adad87f2127b6",
+  "calibration_sha256": "fbe859e86afcc73ad680a2f96c5f481cf8b7fc4d441ca97a4abb1d65f5ff281f",
+  "scikit_learn_version": "1.9.1",
+  "settings": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "threshold_rule": "strictly greater than benign 95th percentile"
+  },
+  "threshold": 0.4296634987032077,
+  "target_calibration_false_positive_rate": 0.05,
+  "observed_calibration_false_positive_rate": 0.05,
+  "maximum_export_probability_error": 3.3306690738754696e-16,
+  "test_period_used": false,
+  "model_sha256": "b3b6b4e95afde0e8415cfb5c0caa0e3f918eaa5b52b7f6828ec6bdc28d2abfc4"
+}

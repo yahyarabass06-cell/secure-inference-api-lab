@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "model_type": "standardized_logistic_regression",
+  "feature_names": [
+    "log_duration_seconds",
+    "log_packet_rate",
+    "log_bytes_per_packet"
+  ],
+  "mean": [
+    3.905634876164797,
+    5.658327926689464,
+    6.222433878459438
+  ],
+  "scale": [
+    0.8083897494317134,
+    1.3049816945165567,
+    0.8240616453785762
+  ],
+  "coefficients": [
+    -0.20415391701317523,
+    4.462990186493032,
+    -1.3406268908497052
+  ],
+  "intercept": -4.124873654262997,
+  "threshold": 0.4296634987032077
+}
