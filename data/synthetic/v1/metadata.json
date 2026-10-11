@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic_simulation",
+  "seed": 20261011,
+  "positive_label": "suspicious_high_rate simulation",
+  "partitions": {
+    "train": {
+      "records": 800,
+      "positive_records": 200,
+      "first_timestamp": "2026-02-01T00:00:00+00:00",
+      "last_timestamp": "2026-02-01T00:13:19+00:00",
+      "sha256": "60fad41abfb08409427bac5a3a471d3914d7e70486c3ed5c402adad87f2127b6",
+      "scenario_counts": {
+        "ordinary": 200,
+        "legitimate_bulk": 200,
+        "unusual_benign": 200,
+        "suspicious_high_rate": 200
+      }
+    },
+    "calibration": {
+      "records": 400,
+      "positive_records": 100,
+      "first_timestamp": "2026-02-02T00:00:00+00:00",
+      "last_timestamp": "2026-02-02T00:06:39+00:00",
+      "sha256": "fbe859e86afcc73ad680a2f96c5f481cf8b7fc4d441ca97a4abb1d65f5ff281f",
+      "scenario_counts": {
+        "ordinary": 100,
+        "legitimate_bulk": 100,
+        "unusual_benign": 100,
+        "suspicious_high_rate": 100
+      }
+    },
+    "test": {
+      "records": 400,
+      "positive_records": 100,
+      "first_timestamp": "2026-02-03T00:00:00+00:00",
+      "last_timestamp": "2026-02-03T00:06:39+00:00",
+      "sha256": "784e1cc4e1077f6da2aaf87dbf433345b0b872cf0c5d51478843a1cf23fdefc6",
+      "scenario_counts": {
+        "ordinary": 100,
+        "legitimate_bulk": 100,
+        "unusual_benign": 100,
+        "suspicious_high_rate": 100
+      }
+    }
+  }
+}
