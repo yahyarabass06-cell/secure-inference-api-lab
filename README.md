@@ -161,7 +161,9 @@ Real loopback HTTP checks confirmed authenticated prediction and responses
 
 A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 93 tests. The installed API verified authentication and prediction, and independent evaluation reproduced the observed confusion matrix.
 
-Remote CI remains pending verification.
+GitHub Actions passed on Python 3.12 and 3.14 for commit `9390728`.
+
+Verified run: [CI results](https://github.com/yahyarabass06-cell/secure-inference-api-lab/actions/runs/38177377630).
 
 ## Limitations
 

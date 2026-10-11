@@ -75,5 +75,7 @@ The dependency snapshot pins versions without artifact hashes.
 
 A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 93 tests. Installed-package API checks passed and evaluation reproduced the recorded confusion matrix.
 
-Remote CI still requires verification.
+GitHub Actions passed on Python 3.12 and 3.14 for commit `9390728`.
+
+Verified run: [CI results](https://github.com/yahyarabass06-cell/secure-inference-api-lab/actions/runs/38177377630).
 No production throughput, latency percentile or memory ceiling is claimed.
