@@ -33,3 +33,6 @@ line-length = 88
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+[project.scripts]
+secure-inference-api = "inference_security.server:main"
